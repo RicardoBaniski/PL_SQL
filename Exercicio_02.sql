@@ -1,6 +1,7 @@
 SET SERVEROUTPUT ON
 
 DECLARE
+-- Quando utilizado o NOT NULL a variável precisa ser inicializada:
     v_nome        VARCHAR2(50) NOT NULL := 0;
     v_sobrenome   VARCHAR(50) NOT NULL := 0;
 BEGIN
